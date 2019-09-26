@@ -3,7 +3,12 @@
         <!-- <img src="'~/assets/tape_mit_text.png"> -->
 
     <div >
-       <img class=tape src="~/assets/tape_mit_text_741.png">
+      
+        <img class=tape src="~/assets/tape_mit_text_741.png" data-aos-delay="2400"
+           data-aos="fade-left">
+        
+        
+       
    
        <!-- 
       <h2 class="subtitle">
@@ -26,8 +31,8 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
+// import Logo from '~/components/Logo.vue'
+import aos from 'aos'
 
 export default {
  
@@ -59,8 +64,16 @@ export default {
 .tape{
   justify-content: right;
   align-items: flex-end;
+  animation: goleft 2s linear forwards 3s;
+
+  
 }
 
+@keyframes goleft {
+  100% {
+    left: 0%;
+  }
+}
 
 
 .title {

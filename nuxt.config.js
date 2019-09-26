@@ -27,13 +27,13 @@ export default {
   ** Global CSS
   */
   css: [
+    "aos/dist/aos.css"
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-  ],
+ plugins: [{ src: "@/plugins/aos", ssr: false }],
 
   /*
   ** Nuxt.js modules
@@ -52,6 +52,8 @@ export default {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-    }
-  }
+    },
+    
+  },
+  
 }

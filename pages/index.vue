@@ -27,16 +27,12 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
-import Tape from '~/components/tape.vue'
 
-import ImageUrl from '~/assets/tape_mit_text_741.png'
 
 export default {
  
 
-  components: {
-    Tape
-  }
+  
   
 
 }

@@ -1,9 +1,13 @@
 <template>
   <div class="main-container">
     <div class="background-overlay" :style="{ backgroundImage: `url(${backgroundUrl})` }"></div>
+    <div class="logo-wrap">
+      <img class="logo-img" :src="`${logoImgUrl}`"
+        >
+    </div>
     <div class="tape-wrap">
       <img class="tape-img" :src="`${tapeImgUrl}`"
-        data-aos-delay="2400" data-aos="fade-left">
+        data-aos-delay="1500" data-aos="fade-left">
     </div>
     <section class="page-wrapper">
       <article class="page-body">
@@ -47,7 +51,8 @@
   // import Logo from '~/components/Logo.vue'
   import aos from 'aos'
   
-  import backgroundUrl from '~/assets/img/asbest-underconst-1980.jpg'
+  import backgroundUrl from '~/assets/img/background_asbest_frei.jpg'
+  import logoImgUrl from '~/assets/img/logo.png'
   import tapeImgUrl from '~/assets/img/tape_mit_text_741.png'
 
   export default {
@@ -61,6 +66,7 @@
     data() {
       return {
         backgroundUrl,
+        logoImgUrl,
         tapeImgUrl
       }
     }

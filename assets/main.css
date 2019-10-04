@@ -44,6 +44,8 @@ html {
 }
 .logo-img {
   height: 25em;
+  max-width: 99%;
+  float: left;
   opacity: 0.9 !important;
 }
 .tape-wrap {
@@ -56,6 +58,8 @@ html {
 }
 .tape-img {
   height: 20em;
+  max-width: 99%;
+  float: right;
 }
 .page-wrapper {
   width: 100%;
@@ -179,9 +183,6 @@ html {
   .main-container {
     font-size: 14px;
   }
-  .background-overlay {
-    background-size: cover;
-  }
 }
 @media (max-width: 991px) {
   .main-container {
@@ -198,13 +199,31 @@ html {
     font-size: 8px;
   }
 }
-@media screen and (max-width: 375px) {
+@media (max-width: 640px) {
+  .main-container {
+    font-size: 7px;
+  }
+}
+@media (max-width: 480px) {
+  .main-container {
+    font-size: 6.5px;
+  }
+}
+@media (max-width: 375px) {
   .main-container {
     font-size: 6px;
   }
 }
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
   .main-container {
     font-size: 5px;
+  }
+}
+@media screen and (orientation:landscape) {
+  .logo-img {
+    max-height: 55vh;
+  }
+  .tape-img {
+    max-height: 30vh;
   }
 }

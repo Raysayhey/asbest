@@ -183,6 +183,11 @@ html {
     background-size: cover;
   }
 }
+@media (max-width: 991px) {
+  .main-container {
+    font-size: 13px;
+  }
+}
 @media (max-width: 767px) {
   .main-container {
     font-size: 12px;
@@ -196,5 +201,10 @@ html {
 @media screen and (max-width: 375px) {
   .main-container {
     font-size: 6px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main-container {
+    font-size: 5px;
   }
 }

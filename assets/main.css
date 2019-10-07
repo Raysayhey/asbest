@@ -38,7 +38,7 @@ html {
 .logo-wrap {
   position: fixed;
   left: 0;
-  top: 30%;
+  top: 35%;
   -ms-transform: translateY(-30%);
   transform: translateY(-30%);
   z-index: 3;
@@ -58,7 +58,7 @@ html {
   z-index: 3;
 }
 .tape-img {
-  height: 20em;
+  height: 25em;
   max-width: 99%;
   float: right;
 }

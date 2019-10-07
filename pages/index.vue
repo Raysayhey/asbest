@@ -7,7 +7,7 @@
     </div>
     <div class="tape-wrap">
       <img class="tape-img" :src="`${tapeImgUrl}`"
-        data-aos-delay="3500" data-aos="fade-left">
+        data-aos-delay="5500" data-aos="fade-left">
     </div>
     <section class="page-wrapper">
       <article class="page-body">
@@ -46,7 +46,7 @@
       </div>
      
        <div class="copyright-wrap">
-        <span class="subtitle">© Copyright Asbest Altlasten Sanierungen GmbH 2019, All Rights Reserved</span>
+        <span class="subtitle">© Copyright Asbest Altlasten Sanierungen GmbH 2019, Alle Rechte reserviert</span>
       </div>
     </footer>
    

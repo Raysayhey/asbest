@@ -7,7 +7,7 @@
     </div>
     <div class="tape-wrap">
       <img class="tape-img" :src="`${tapeImgUrl}`"
-        data-aos-delay="1500" data-aos="fade-left">
+        data-aos-delay="3500" data-aos="fade-left">
     </div>
     <section class="page-wrapper">
       <article class="page-body">
@@ -20,31 +20,37 @@
         </div>
       </article>
     </section>
-    <footer class="footer-wrapper">
-      <div class="subtitle-wrap">
+     <footer class="footer-wrapper">
+      <!-- <div class="subtitle-wrap">
         <h2 class="subtitle gyho-color">
-          under construction asbest website
+          Die Asbest Webseite wird zur Zeit umgebaut
         </h2>
-      </div>
+      </div> -->
       <div class="wpb-wrap">
         <div class="footerCTA">
-          <a href="#" style="color:#1ed975">Let's Talk</a>
+          <h4>
+          <a class="gyho-color" href="mailto:info@asbest-entfernung.com" font:="helvetica neue" style="color:#1ed975">Kontaktieren Sie uns für weitere Infos</a>
           <span class="arrowRight">
             <i id="arrowRight" class="fa fa-arrow-right3"></i>
           </span>
+          </h4>
         </div>
+        <br></br>
+        <h4 style="color:#fff">
+          Sandra Cannone </br>
+          Stallikonerstrasse 81 </br>
+          8903 Birmensdorf</br>
+          office: 044 344 06 94</br>
+          email: info@asbest-entfernung.com
+        </h4>
       </div>
-      <div class="links-wrap">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green"
-        >Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey"
-        >GitHub</a>
-       </div>
+     
        <div class="copyright-wrap">
-        <span class="subtitle">© Copyright Ray 2019, All Rights Reserved</span>
+        <span class="subtitle">© Copyright Asbest Altlasten Sanierungen GmbH 2019, All Rights Reserved</span>
       </div>
     </footer>
-    <button onclick="topFunction()" id="gotopBtn">Top</button>
+   
+    <!-- <button onclick="topFunction()" id="gotopBtn">Top</button> -->
   </div>
 </template>
 <script>

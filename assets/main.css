@@ -21,6 +21,7 @@ html {
   width: 100%;
   height: 100%;
 }
+
 .main-container {
   width: 100%;
   height: 100%;
@@ -80,16 +81,18 @@ html {
   margin-top: 18px;
 }
 .subtitle {
-  font-family: 'BrandonGrotesque-Regular';
+  font-family: 'Source Sans Pro';
 }
 .gyho-color {
   color: #fff !important;
+  font-family: 'Helvetica neue' !important;  
+  /* mailtoLink inbegriffen */
 }
 .wpb-wrap {
   margin-top: 18px;
 }
 .footerCTA {
-  font-family: 'BrandonGrotesque-Bold';
+  font-family: 'Source Sans Pro';
   font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 3px;

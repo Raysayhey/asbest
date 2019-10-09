@@ -34,15 +34,17 @@
             <i id="arrowRight" class="fa fa-arrow-right3"></i>
           </span>
           </h4>
-        </div>
-        <br></br>
+        </div>  
+            <div>
+        <br />
         <h4 style="color:#fff">
-          Sandra Cannone </br>
-          Stallikonerstrasse 81 </br>
-          8903 Birmensdorf</br>
-          office: 044 344 06 94</br>
-          email: info@asbest-entfernung.com
+          AA Asbest Altlasten Sanierungen GmbH <br />
+          Stallikonerstrasse 81 <br />
+          8903 Birmensdorf<br />
+           043 344 06 94 | 079 325 02 22<br />
+          info@asbest-entfernung.com
         </h4>
+        </div>    
       </div>
      
        <div class="copyright-wrap">
